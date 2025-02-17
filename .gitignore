@@ -1,0 +1,30 @@
+# Ignore everything by default
+*
+
+# Allow tracking of .gitignore itself
+!.gitignore
+
+# Allow Java source files
+!**/*.java
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore IntelliJ IDEA and VS Code project files
+.idea/
+.vscode/
+
+# Ignore Test My Code (TMC) data and results
+tmcdata/
+results/
+tmc-checkpoints/
+
+# Ignore backup and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
