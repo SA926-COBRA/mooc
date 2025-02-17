@@ -7,8 +7,8 @@
 # Allow Java source files
 !**/*.java
 
-# Ignore compiled Java class files
-*.class
+# Ensure .class files are ignored (even if force-added)
+**/*.class
 
 # Ignore IntelliJ IDEA and VS Code project files
 .idea/
