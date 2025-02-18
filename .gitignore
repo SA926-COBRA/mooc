@@ -28,3 +28,12 @@ tmc-checkpoints/
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore target directory (Maven build output)
+target/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore Maven-specific files
+maven-status/
