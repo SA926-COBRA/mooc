@@ -12,6 +12,8 @@ public class RepeatingBreakingAndRemembering {
         // when it's just partially done. In that case the server will complain about
         // the parts you haven't done, but you'll get points for the finished parts.
         int sum = 0;
+        int count = 0;
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Give numbers: :");
@@ -23,9 +25,13 @@ public class RepeatingBreakingAndRemembering {
             }
 
             sum += num;
+            count++;
         }
+
         System.out.println("Thx! Bye!");
         System.out.println("Sum: " + sum);
+        System.out.println("Numbers: " + count);
+
         scanner.close();
     }
 }
