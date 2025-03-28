@@ -13,10 +13,10 @@ public class RepeatingBreakingAndRemembering {
         // the parts you haven't done, but you'll get points for the finished parts.
         int sum = 0;
         int count = 0;
-
+        double avg = 0;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Give numbers: :");
+        System.out.println("Give numbers: ");
         while (true) {
             int num = Integer.parseInt(scanner.nextLine());
 
@@ -26,11 +26,13 @@ public class RepeatingBreakingAndRemembering {
 
             sum += num;
             count++;
+            avg = (double) sum / count;
         }
 
         System.out.println("Thx! Bye!");
         System.out.println("Sum: " + sum);
         System.out.println("Numbers: " + count);
+        System.out.println("Average: " + avg);
 
         scanner.close();
     }
