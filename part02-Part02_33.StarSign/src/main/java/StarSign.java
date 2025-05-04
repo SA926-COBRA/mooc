@@ -36,10 +36,16 @@ public class StarSign {
     }
 
     public static void printRectangle(int width, int height) {
-        // third part of the exercise
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     public static void printTriangle(int size) {
         // fourth part of the exercise
+
     }
 }
