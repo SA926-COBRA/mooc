@@ -24,6 +24,16 @@ public class AdvancedAstrology {
 
     public static void christmasTree(int height) {
         // part 3 of the exercise
+        // Tree body
+        for (int i = 0; i < height; i++) {
+            printSpaces(height - i - 1);
+            printStars(2 * i + 1);
+        }
+        // Tree base
+        for (int i = 0; i < 2; i++) {
+            printSpaces(height - 2);
+            printStars(3);
+        }
     }
 
     public static void main(String[] args) {
